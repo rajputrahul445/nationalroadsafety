@@ -1,0 +1,134 @@
+
+
+@media screen and (min-width: 1366px) {
+    .container{max-width: 1250px;}
+}
+@media only screen and (max-width: 991px){
+    body{padding-top: 0px; overflow: visible;}
+    .mobile{display: block  !important;}
+    .desktop{display: none;}
+    nav#mainNav .nav-item > a {
+        padding: 15px 0;
+        border-bottom: none;
+    }
+   nav#mainNav .nav-item{
+    padding: 0;
+   }
+   nav#mainNav{
+    padding: 15px;
+   }
+   .mainHeader nav#mainNav .mobile  img{
+    width: 100px;
+    margin-bottom: 20px;
+   }
+    /* .navbar-light .navbar-toggler {
+        border: none;
+        padding: 0;
+        position: absolute;
+        right: 90px;
+        outline: none;
+        z-index: 8;
+    } */
+    .navbar-light .navbar-toggler i {
+        color: #fff;
+        font-size: 24px;
+        padding: 5px;
+        border-radius: 5px;
+        border: solid 1px #fff;
+    }
+    div#navbarSupportedContent {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: -0px;
+        background: #333;
+        height: 100vh;
+        padding: 20px;
+        z-index: 9;
+        display: block;
+        transform: translateX(-100%);
+        transition: all 400ms ease;
+        padding-top: 60px;
+    }
+    .cross-toggler {
+        background: transparent;
+        border: none;
+        color: #fff;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        z-index: 9999;
+        font-size: 20px;
+    }
+    ul.navbar-nav.ml-auto {
+        height: calc(100vh - 60px);
+        overflow: auto;
+    }
+    div#navbarSupportedContent.active{
+        left: 100%;
+        transition: all 400ms ease;
+    }
+    .overLay {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(0 0 0 / 51%);
+        top: 0;
+        left: 0;
+        display: none;
+    }
+
+    .overLay.active {
+        display: block;
+    }
+    .ranking {
+        flex-wrap: wrap;
+    }
+    
+    .rank.rankOne {
+        order: 1;
+    }
+    
+    .rank.rankTwo {
+        order: 2;
+    }
+    
+    .rank.rankThree {
+        order: 3;
+    }
+    .rankingTable table td{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .rankingTable{
+        padding: 15px;
+    }
+    .rankingTable tr td:nth-child(1) h4, .userWithName h4{
+        font-size: 18px;
+    }
+    .rankingTable tr td:nth-child(1){
+        width: auto;
+    }
+    .userWithName{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .our-service-area, .contact-footer{
+        margin-top: 20px;
+    }
+    .footer2-section-area{
+        overflow: hidden;
+    }
+    
+}
+@media only screen and (max-width: 767px){
+    
+}
+@media only screen and (max-width: 460px){
+
+}
