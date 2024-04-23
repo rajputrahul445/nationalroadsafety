@@ -97,7 +97,7 @@ nav#mainNav .nav-item > i {
 }
 .midSection{
     padding-top: 200px;
-    background: url(../images/bg.png) 0 0 no-repeat;
+    background: url(../images/Image.png) 0 0 no-repeat;
     background-size: cover;
 }
 .midSection h1{
@@ -207,8 +207,6 @@ span.rankNum {
     background: #FDF2E3;
     padding: 30px;
     border-radius: 20px 20px 0 0;
-    max-height: 600px;
-    overflow: auto;
 }
 
 .rankingTable tr td:nth-child(1) {
@@ -240,8 +238,40 @@ span.rankNum {
 .rankingTable tr td:nth-child(1) h4 {
     margin: 0;
 }
+.sideIcons {
+    position: fixed;
+    left: 10px;
+    bottom: 100px;
+    text-align: center;
+}
 
+.sideIcons img {
+    max-width: 80px;
+}
 
+.sideIcons > div {
+    margin-top: 20px;
+}
+
+.sideIcons.rightIcons {
+    left: auto;
+    right: 10px;
+}
+#backTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
 
 
 
