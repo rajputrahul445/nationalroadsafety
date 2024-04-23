@@ -89,7 +89,9 @@
     .ranking {
         flex-wrap: wrap;
     }
-    
+    .rank{
+        width: 100%;
+    }
     .rank.rankOne {
         order: 1;
     }

@@ -143,6 +143,7 @@ nav#mainNav .nav-item > i {
     box-shadow: 0px -5px 10px #00000017;
     text-align: center;
     position: relative;
+    width: 29%;
 }
 
 span.rankNum {
