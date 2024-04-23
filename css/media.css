@@ -29,6 +29,14 @@
         outline: none;
         z-index: 8;
     } */
+    header.mainHeader.fixedHeader .navbar-toggler i {
+        color: #000;
+        border-color: #000;
+    }
+    
+    header.mainHeader .navbar-toggler {
+        border: none;
+    }
     .navbar-light .navbar-toggler i {
         color: #fff;
         font-size: 24px;
